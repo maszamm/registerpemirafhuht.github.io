@@ -1,0 +1,65 @@
+body {
+  background-image: url(gambar/UHT123.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-decoration: white;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+label {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+  color: #fff;
+}
+h5 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.loginform {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 70px 30px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input[type='nama'],
+input[type='radio'],
+input[type='nim'],
+input[type='wa'],
+input[type='email'],
+input[type='file'] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: bold;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .loginform {
+    width: 800px;
+    height: 650px;
+  }
+}
